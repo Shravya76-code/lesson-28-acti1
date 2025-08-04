@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String replace & Number to string</title>
+    </head>
+
+    <body>
+        <h2>STRINGS WITH NUMBERS</h2>
+    
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        //convert number to string
+        var num = 328;
+        var str = num + "";//Easy way to convert number to string
+        document.getElementById("demo1").innerHTML = "Number as string:" + str;
+
+        //Replace word in a sentence
+        var sentence = "My name is Shravya";
+        var newSentence = sentence.replace("Shravya" , "Saachi");
+        document.getElementById("demo2").innerHTML = " new sentence:" + newSentence;
+
+    </script>
+    </body>
+</html>
